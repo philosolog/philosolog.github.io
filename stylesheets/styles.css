@@ -238,6 +238,8 @@ footer {
   }
 }
 
+button.link { background:none; border:none; }
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;

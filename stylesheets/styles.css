@@ -3,6 +3,10 @@
   --color-primary: #333;
 }
 
+button.link { 
+	background:none; border:none;
+}
+
 html[theme='dark'] {
   --background-primary: #0d1117;
   --color-primary: #ccc;
@@ -237,8 +241,6 @@ footer {
     top:52px;
   }
 }
-
-button.link { background:none; border:none; }
 
 @media print, screen and (max-width: 720px) {
   body {

@@ -6,7 +6,7 @@ subtitle: Currently a high school senior!
 
 profile:
   align: right
-  image: sprout.jpg
+  image: sprout.png
   image_circular: false # crops the image to make it circular
   more_info: >
 

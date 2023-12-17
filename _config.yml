@@ -10,7 +10,7 @@ email: philosolog@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   All things philosolog here!
 footer_text: >
-  Hosted by <a href="https://pages.github.com/" target="_blank">Pages</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Made with <a href="https://pages.github.com/" target="_blank">Pages</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

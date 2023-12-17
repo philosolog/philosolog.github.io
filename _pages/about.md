@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Currently a high school senior!
+subtitle: ???
 
 profile:
   align: right

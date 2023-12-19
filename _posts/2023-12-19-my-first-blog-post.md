@@ -1,14 +1,17 @@
 ---
 layout: distill
-title: my first blog post here lol
+title: my first blog post
 description: i don't know what is expected of me
 tags:
-giscus_comments: true
+giscus_comments: false
 date: 2023-12-19
 featured: true
 
 authors:
   - name: Aaron Wang
+  	url: "https://github.com/philosolog"
+    affiliations:
+      name: myself lol
 toc:
   - name: very brief introduction
 _styles: >

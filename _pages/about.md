@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: high school student
+subtitle: <b>high school student</b>
 
 profile:
   align: right

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: philosolog
+subtitle: high school student
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-hi! i'm a current high school senior and yeah i'm working on projects and stuff.
+hi! right now, i'm probably working on projects and stuff.. and listening to spotify.
 
 i like pure math and competitive programming! as a future undergrad, i'd like to pursue research in computational neuroscience..
 

@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: my first blog post
-description: i don't know what is expected of me
+description: is this working okay?
 tags:
 giscus_comments: false
 date: 2023-12-19
@@ -11,9 +11,9 @@ authors:
   - name: Aaron Wang
     url: "https://github.com/philosolog"
     affiliations:
-      name: myself lol
+      name: myself..? myself...
 toc:
-  - name: a very brief introduction
+  - name: a very, very, very brief introduction
 _styles: >
   .fake-img {
     background: #bbb;
@@ -32,6 +32,6 @@ _styles: >
 
 ---
 
-## a very brief introduction
+## a very, very, very brief introduction
 
-so, hi..?
+it's 2:25 AM, i'm definitely not going to finish this tonight.. see you tomorrow (or in a few hours, probably)

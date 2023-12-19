@@ -13,7 +13,7 @@ authors:
     affiliations:
       name: myself lol
 toc:
-  - name: very brief introduction
+  - name: a very brief introduction
 _styles: >
   .fake-img {
     background: #bbb;
@@ -32,6 +32,6 @@ _styles: >
 
 ---
 
-## very brief introduction
+## a very brief introduction
 
 so, hi..?

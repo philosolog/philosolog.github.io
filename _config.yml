@@ -13,7 +13,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🌱  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌱  # the emoji used as the favicon (alternatively, provide image name in /assets/images/)
 
 url: https://philosolog.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -98,7 +98,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: 897728576659529780
 zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/images/wechat-qr.png)
 
 contact_note: >
 
@@ -329,7 +329,7 @@ imagemagick:
     - 800
     - 1400
   input_directories:
-    - assets/img/
+    - assets/images/
   input_formats:
     - ".jpg"
     - ".jpeg"

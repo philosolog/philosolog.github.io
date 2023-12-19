@@ -9,7 +9,7 @@ featured: true
 
 authors:
   - name: Aaron Wang
-  	url: "https://github.com/philosolog"
+    url: "https://github.com/philosolog"
     affiliations:
       name: myself lol
 toc:

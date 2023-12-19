@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>high school student</b>
+subtitle:
 
 profile:
   align: right
@@ -16,8 +16,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-hi! right now, i'm probably working on projects and stuff.. and listening to spotify.
+Hi! I'm a prospective undergraduate with an interest toward furthering my research experience in pure mathematics and computational neuroscience!
 
-i like pure math and competitive programming! as a future undergrad, i'd like to pursue research in computational neuroscience..
+I currently enjoy competitive programming, helping others with all things academic, and nailing my eight daily Clash of Clans raids- keeping up with Legend League is quite the grind...
 
-oh uh also i'm trying to push for top 10k in clash of clans' legend league tourney lol
+Here's some random background to fill some space! I started programming in elementary school in order to impress my friends and family with small game-design projects. Later, I'd discover my interest in pure math when my precalculus teacher introduced to me the concept of a combinatorial magic square. Through random projects over the years, I began to build my tech stack <sub>(pls add this somewhere else, future me)</sub>. It wasn't until later that I started practicing programming in the context of competitive programming.. so.. here I am now!

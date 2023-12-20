@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sick, Ill
+title: dango-box
 description:
 img: 
 importance: 1
-category: writing
+category: utility
 related_publications:
 ---
 

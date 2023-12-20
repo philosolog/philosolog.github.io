@@ -5,7 +5,7 @@ permalink: /projects/
 description: stuff i worked on
 nav: true
 nav_order: 2
-display_categories: [school, personal]
+display_categories: [community, math, game, utility, writing] # TODO: Important project stuff!
 horizontal: false
 ---
 

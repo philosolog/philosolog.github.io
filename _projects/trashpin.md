@@ -2,9 +2,9 @@
 layout: page
 title: trashpin
 description:
-img: # assets/images/cobb_douglas.jpg
+img: 
 importance: 4
-category: personal
+category: utility
 related_publications:
 ---
 

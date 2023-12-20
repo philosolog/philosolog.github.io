@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Marklands
+title: Calculus Resources
 description:
 img: 
-importance: 3
-category: game
+importance: 1
+category: math
 related_publications:
 ---
 

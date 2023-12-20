@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Marklands
+title: Sick, Ill
 description:
 img: 
-importance: 3
-category: game
+importance: 2
+category: writing
 related_publications:
 ---
 

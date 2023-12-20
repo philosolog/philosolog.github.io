@@ -4,7 +4,7 @@ title: The Study Hall
 description:
 img: assets/images/the_study_hall_default.png
 importance: 1
-category: personal
+category: community
 related_publications:
 ---
 

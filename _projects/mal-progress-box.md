@@ -1,6 +1,6 @@
 ---
 layout: page
-title: dango-box
+title: mal-progress-box
 description:
 img: 
 importance: 1

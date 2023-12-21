@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "simple-icons-font": "^10.3.0"
+    "simple-icons-font": "^10.3.0",
+    "spotifyCurrentlyPlaying.js": "^0.3.2"
   }
 }

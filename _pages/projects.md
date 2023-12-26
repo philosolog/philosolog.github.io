@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
-description: Some stuff I worked on.
+description: a portion of my work
 nav: true
 nav_order: 2
 display_categories: [community, math, game, utility, writing] # TODO: Important project stuff!

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: trashpin
+title: birdfight.io
 description:
 img: 
 importance: 1
-category: utility
+category: game
 related_publications:
 ---
 

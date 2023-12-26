@@ -1,6 +1,6 @@
 ---
 layout: page
-title: trashpin
+title: Academiquery
 description:
 img: 
 importance: 1

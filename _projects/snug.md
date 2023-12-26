@@ -1,10 +1,10 @@
 ---
 layout: page
-title: trashpin
+title: snug
 description:
 img: 
 importance: 1
-category: utility
+category: game
 related_publications:
 ---
 

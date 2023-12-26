@@ -1,6 +1,6 @@
 ---
 layout: page
-title: trashpin
+title: mediaboard
 description:
 img: 
 importance: 1

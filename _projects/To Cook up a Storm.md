@@ -1,10 +1,10 @@
 ---
 layout: page
-title: trashpin
+title: To Cook up a Storm
 description:
 img: 
 importance: 1
-category: utility
+category: game
 related_publications:
 ---
 

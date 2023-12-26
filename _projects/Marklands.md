@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Marklands
-description:
+description: A location-based multiplayer game.
 img: 
 importance: 1
 category: game

@@ -225,7 +225,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-# TODO: Important blog stuff!
+# *: Important blog stuff!
 display_tags: []
 display_categories: []
 

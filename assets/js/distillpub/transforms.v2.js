@@ -1892,7 +1892,7 @@
                                                 } else if (/^[1-9]$/.test(tok.text)) {
                                                     // expansion.splice(i, 2, arg[0], arg[1], …)
                                                     // to replace placeholder with the indicated argument.
-                                                    // TODO: use spread once we move to ES2015
+                                                    // use spread once we move to ES2015
                                                     expansion.splice.apply(expansion, [i, 2].concat(args[tok.text - 1]));
                                                 } else {
                                                     throw new _ParseError2.default("Not a valid argument number", tok);
@@ -3595,8 +3595,8 @@
                      * Correctly pulls out metrics for the character, and optionally takes a list of
                      * classes to be attached to the node.
                      *
-                     * TODO: make argument order closer to makeSpan
-                     * TODO: add a separate argument for math class (e.g. `mop`, `mbin`), which
+                     * make argument order closer to makeSpan
+                     * add a separate argument for math class (e.g. `mop`, `mbin`), which
                      * should if present come first in `classes`.
                      */
                     var makeSymbol = function makeSymbol(value, fontFamily, mode, options, classes) {
@@ -3749,9 +3749,9 @@
                     /**
                      * Makes a span with the given list of classes, list of children, and options.
                      *
-                     * TODO: Ensure that `options` is always provided (currently some call sites
+                     * Ensure that `options` is always provided (currently some call sites
                      * don't pass it).
-                     * TODO: add a separate argument for math class (e.g. `mop`, `mbin`), which
+                     * add a separate argument for math class (e.g. `mop`, `mbin`), which
                      * should if present come first in `classes`.
                      */
                     var makeSpan = function makeSpan(classes, children, options) {
@@ -4097,7 +4097,7 @@
                     };
 
                     var isBinLeftCanceller = function isBinLeftCanceller(node, isRealGroup) {
-                        // TODO: This code assumes that a node's math class is the first element
+                        // This code assumes that a node's math class is the first element
                         // of its `classes` array. A later cleanup should ensure this, for
                         // instance by changing the signature of `makeSpan`.
                         if (node) {
@@ -9879,7 +9879,7 @@
                         };
                     });
 
-                    // TODO: In TeX, \mkern only accepts mu-units, and \kern does not accept
+                    // In TeX, \mkern only accepts mu-units, and \kern does not accept
                     // mu-units. In current KaTeX we relax this; both commands accept any unit.
                     defineFunction(["\\kern", "\\mkern"], {
                         numArgs: 1,
@@ -10411,8 +10411,7 @@
                     // \newcommand{\boxed}[1]{\fbox{\m@th$\displaystyle#1$}}
                     defineMacro("\\boxed", "\\fbox{\\displaystyle{#1}}");
 
-                    //TODO: When implementing \dots, should ideally add the \DOTSB indicator
-                    //      into the macro, to indicate these are binary operators.
+                    // When implementing \dots, should ideally add the \DOTSB indicator into the macro, to indicate these are binary operators.
                     // \def\iff{\DOTSB\;\Longleftrightarrow\;}
                     // \def\implies{\DOTSB\;\Longrightarrow\;}
                     // \def\impliedby{\DOTSB\;\Longleftarrow\;}
@@ -11621,7 +11620,7 @@
                     defineSymbol(text, main, textord, "\u201D", "\\textquotedblright");
                     defineSymbol(math, main, textord, "\xB0", "\\degree");
                     defineSymbol(text, main, textord, "\xB0", "\\degree");
-                    // TODO: In LaTeX, \pounds can generate a different character in text and math
+                    // In LaTeX, \pounds can generate a different character in text and math
                     // mode, but among our fonts, only Main-Italic defines this character "163".
                     defineSymbol(math, main, mathord, "\xA3", "\\pounds");
                     defineSymbol(math, main, mathord, "\xA3", "\\mathsterling");
@@ -11790,7 +11789,7 @@
                             } else {
                                 unitOptions = options;
                             }
-                            // TODO: In TeX these units are relative to the quad of the current
+                            // In TeX these units are relative to the quad of the current
                             // *text* font, e.g. cmr10. KaTeX instead uses values from the
                             // comparably-sized *Computer Modern symbol* font. At 10pt, these
                             // match. At 7pt and 5pt, they differ: cmr7=1.138894, cmsy7=1.170641;
@@ -12575,7 +12574,6 @@
             if (text && acceptNode(n)) {
                 text = quotes(text);
                 text = punctuation(text);
-                // TODO: Add back support for ligatures once their uppercased versions don't hang Chrome search anymore
                 // see: https://bugs.chromium.org/p/chromium/issues/detail?id=862648
                 // text = ligatures(text);
                 n.nodeValue = text;

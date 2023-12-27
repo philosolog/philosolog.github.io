@@ -166,9 +166,10 @@ blockquote {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-
+    margin-top: -10px;
+	text-align: center;
+	color: var(--global-divider-color);
+	
     p {
       display: inline-block;
       margin: 0;

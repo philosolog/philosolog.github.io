@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a portion of my work
+description: a portion of what I've worked on
 nav: true
 nav_order: 2
 display_categories: [community, math, game, utility, writing] # *: Important project stuff!

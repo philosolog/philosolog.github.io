@@ -1,7 +1,7 @@
 ---
 layout: page
 title: snug
-description: A simple shape-fitting puzzle generate.
+description: A simple shape-fitting puzzle generator.
 img: 
 importance: 1
 category: game

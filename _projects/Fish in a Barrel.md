@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fish in a Barrel
-description:
+description: Roguelike, but you are a fish.
 img: 
 importance: 1
 category: game

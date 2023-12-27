@@ -1,7 +1,7 @@
 ---
 layout: page
 title: To Cook up a Storm
-description:
+description: An intense, lightning-fast cooking simulator.
 img: 
 importance: 1
 category: game

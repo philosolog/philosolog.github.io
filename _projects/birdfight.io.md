@@ -1,7 +1,7 @@
 ---
 layout: page
 title: birdfight.io
-description:
+description: Where the early bird gets the worm.
 img: 
 importance: 1
 category: game

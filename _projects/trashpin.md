@@ -1,7 +1,7 @@
 ---
 layout: page
 title: trashpin
-description:
+description: My (personal) pin-manager for Discord.
 img: 
 importance: 1
 category: utility

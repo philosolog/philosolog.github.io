@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sick, Ill
-description:
+description: A writing haven for when I get bored.
 img: 
 importance: 1
 category: writing

@@ -12,7 +12,7 @@
 			{% endif %}
 			{% for item in latest_posts limit: latest_posts_limit %}
 			<tr>
-				<th scope="row" style="width: 0%">{{ item.date | date: "%m/%d/%Y" }}</th>
+				<th scope="row" style="width: 0%; color: var(--global-text-color)">{{ item.date | date: "%m/%d/%Y" }}</th>
 				<td>
 					<!-- TODO: Find a way to not need the post date in the filename... the following segment links the latest post to its main page... -->
 					{% if item.redirect == blank %}

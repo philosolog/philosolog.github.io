@@ -7369,6 +7369,7 @@ p small {
 		return locale$1;
 	}
 
+	// TODO: Find a way to not have to put the date of the post as its filename.
 	var isoSpecifier = "%Y-%m-%dT%H:%M:%S.%LZ";
 
 	function formatIsoNative(date) {

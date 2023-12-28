@@ -280,13 +280,11 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
-
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
-
       &:hover {
         i::before {
           color: var(--global-hover-color);
@@ -341,14 +339,18 @@ blockquote {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
-
   &:hover {
     color: var(--global-hover-color);
   }
 }
-
-// Social (bottom)
-
+.tech_stack {
+	margin-top: 0px;
+	font-size: 1.4rem;
+	
+	i::before {
+		color: var(--global-text-color);
+	}
+}
 .social {
   text-align: center;
 
@@ -504,6 +506,9 @@ footer.sticky-bottom {
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
+  }
+  .username {
+  	color: var(--global-divider-color);
   }
 }
 

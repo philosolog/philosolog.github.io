@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sick, Ill
+title: Sickle
 description: A spot to write when I get bored.
 img: 
 importance: 1

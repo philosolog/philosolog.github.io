@@ -1249,7 +1249,7 @@
                         render: render,
                         renderToString: renderToString,
                         /**
-                         * NOTE: This method is not currently recommended for public use.
+                         * This method is not currently recommended for public use.
                          * The internal tree representation is unstable and is very likely
                          * to change. Use at your own risk.
                          */
@@ -7847,7 +7847,7 @@
                      * This function is a convenience function for looking up information in the
                      * metricMap table. It takes a character as a string, and a style.
                      *
-                     * Note: the `width` property may be undefined if fontMetricsData.js wasn't
+                     * the `width` property may be undefined if fontMetricsData.js wasn't
                      * built using `Make extended_metrics`.
                      */
                     var getCharacterMetrics = function getCharacterMetrics(character, style) {
@@ -12063,7 +12063,7 @@
         return data;
     };
 
-    /* Note: optionsCopy is mutated by this method. If it is ever exposed in the
+    /* optionsCopy is mutated by this method. If it is ever exposed in the
      * API, we should copy it before mutating.
      */
     const renderMathInText = function (text, optionsCopy) {

@@ -612,7 +612,7 @@
 		return data;
 	};
 
-	/* Note: optionsCopy is mutated by this method. If it is ever exposed in the
+	/* optionsCopy is mutated by this method. If it is ever exposed in the
 	 * API, we should copy it before mutating.
 	 */
 	const renderMathInText = function (text, optionsCopy) {
@@ -7061,7 +7061,7 @@ p small {
 	}
 
 	var pads = { "-": "", "_": " ", "0": "0" },
-		numberRe = /^\s*\d+/, // note: ignores next directive
+		numberRe = /^\s*\d+/, // ignores next directive
 		percentRe = /^%/,
 		requoteRe = /[\\^$*+?|[\]().{}]/g;
 
